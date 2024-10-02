@@ -27,7 +27,7 @@ local function deserialize_directory(directory, parent)
 		end
 	end
 end
-
+ 
 local function publish_package_asset(instance)
 	local ws = game.Workspace
 	local as = game.AssetService
